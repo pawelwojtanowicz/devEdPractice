@@ -22,3 +22,28 @@
   color: red;
   
 }
+
+.something{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(150, 135, 135);
+  color: darkblue;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.something2{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(32, 184, 65);
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

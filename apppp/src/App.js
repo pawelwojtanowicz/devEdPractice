@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import Hello from './sayHallo';
 import Tweet from './Tweet';
+import Toggle from './Toggle.js';
+import Toggle2 from './Toggle2.js';
 
 function App (){
 
@@ -23,6 +25,11 @@ function App (){
       <h1 className={isRed ? 'red' : ''}>Change my color</h1>
       <button onClick={increment}>Increment</button>
       <h1>{count}</h1>
+
+      <Toggle />
+
+      <Toggle2 />
+
     </div>
   );
 }
