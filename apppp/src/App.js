@@ -3,6 +3,7 @@ import Hello from './sayHallo';
 import Tweet from './Tweet';
 import Toggle from './Toggle.js';
 import Toggle2 from './Toggle2.js';
+import Inputs from './Inputs.js'
 
 function App (){
 
@@ -29,6 +30,8 @@ function App (){
       <Toggle />
 
       <Toggle2 />
+
+      <Inputs />
 
     </div>
   );
