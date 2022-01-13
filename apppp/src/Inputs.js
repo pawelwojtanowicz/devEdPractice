@@ -4,7 +4,7 @@ function Inputs () {
     
     const [someNumber, setSomeNumber] = useState(0)
     const [someText, setSomeText] = useState("this is some text to change")
-
+    const [textButton, setTextButton] = useState()
     const changer = () => {
         setSomeText(someText)
     }
@@ -26,8 +26,8 @@ function Inputs () {
         value={someText}
         onChange={(e) => setSomeText(e.target.value)}
         />
-        <button onClick={changer}>Click me!</button>
-        <p>{setSomeText}</p>
+        <button onClick={() => setTextButton(someText)}>Click me!</button>
+        <p>{textButton && <div>{textButton}</div>}</p>
 
 
     </div>
